@@ -1,16 +1,12 @@
 # desafio_transicao_botao
 
-A new Flutter project.
+<b>Curso de Flutter - Iniciante na MasterClass da Flutterando.</b>
 
-## Getting Started
+# Aula Animações
 
-This project is a starting point for a Flutter application.
+Desafio proposto para entender como funcionam as <b><i>Animações Implícitas</i></b> mostradas em aula. Foi realizado com <code>AnimatedAlign</code> e <code>AnimatedContainer</code>.
 
-A few resources to get you started if this is your first Flutter project:
+Primeiramente tentei usar <code>BoxShape</code> nas bordas, mas a transição ficava muito direta depois que o <code>AnimatedContainer</code> mudava de tamanho. Ficou bem melhor o resultado usando <code>BorderRadius</code> no lugar:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+https://user-images.githubusercontent.com/86212446/146114090-213a8ad4-35f3-47d0-8841-2b68c2030d47.mp4
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
